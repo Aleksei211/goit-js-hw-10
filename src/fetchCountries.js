@@ -11,9 +11,7 @@ const refs = {
     countryList: document.querySelector('.country-list')
     
 };
-function name(params) {
-  
-}
+
 
 //refs.inputCountry.addEventListener('input', debounce(onSearch, 300));
 
@@ -47,8 +45,8 @@ function name(params) {
    
     
 //     fetchCountries(searchName)
-//         .then(redrerCountryCard)
-//         .catch(error => error())
+//         .then(rendrerCountryCard)
+//         .catch(error => console.log(error))
     
 // }
 
@@ -59,7 +57,7 @@ function name(params) {
 //     })
 // }
 
-// function redrerCountryCard(country) {
+// function rendrerCountryCard(country) {
 //         const markup = countryCardTpl(country);
 //         refs.countryInfo.innerHTML = markup;  
 // }
